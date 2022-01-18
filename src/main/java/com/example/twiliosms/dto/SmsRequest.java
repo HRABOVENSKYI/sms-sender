@@ -1,4 +1,4 @@
-package com.example.twiliosms;
+package com.example.twiliosms.dto;
 
 import lombok.Data;
 

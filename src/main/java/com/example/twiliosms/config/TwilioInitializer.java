@@ -1,4 +1,4 @@
-package com.example.twiliosms;
+package com.example.twiliosms.config;
 
 import com.twilio.Twilio;
 import org.slf4j.Logger;

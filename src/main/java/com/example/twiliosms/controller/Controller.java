@@ -1,5 +1,7 @@
-package com.example.twiliosms;
+package com.example.twiliosms.controller;
 
+import com.example.twiliosms.service.impl.Service;
+import com.example.twiliosms.dto.SmsRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -11,7 +13,8 @@ import javax.validation.Valid;
 @RestController
 @RequestMapping("/api/sms")
 @RequiredArgsConstructor
-public class Controller {
+public class
+Controller {
 
     private final Service service;
 
